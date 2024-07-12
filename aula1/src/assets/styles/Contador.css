@@ -1,0 +1,24 @@
+.Contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .counter-button {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .counter-value {
+    font-size: 2rem;
+    color: #3a3a3a;
+  }
