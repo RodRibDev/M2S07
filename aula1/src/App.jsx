@@ -1,5 +1,6 @@
 import "./App.css";
+import Contador from "./components/contador";
 
 export default function App() {
-  return <main>React ⚛️ + Vite ⚡ + Replit + teste hot reload</main>;
+  return <Contador></Contador>;
 }
