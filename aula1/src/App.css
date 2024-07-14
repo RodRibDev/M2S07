@@ -1,4 +1,6 @@
 main {
+  display: flex;
+  align-items: center;
 }
 
 * {
@@ -7,4 +9,13 @@ main {
   
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.separator {
+  border: 0;
+  height: 1px;
+  background: #ccc; /* Cor da linha */
+  margin: 20px 0; /* Margem acima e abaixo da linha */
 }
