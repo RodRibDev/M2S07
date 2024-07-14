@@ -12,7 +12,7 @@ function Lista() {
       setLista((listaAnterior) => {
         return [...listaAnterior, texto];
       });
-      setTexto(''); // Limpar o campo de texto após inserir na lista
+      setTexto('');
     }
   }
 
@@ -30,7 +30,7 @@ function Lista() {
           name="musicos"
           id="lista-musicos"
           placeholder="Digite uma banda ou músico"
-          value={texto} // Adicionar value ao input para controlar seu estado
+          value={texto}
           onChange={(e) => setTexto(e.target.value)}
         />
         <button className="btn" type="submit">Inserir</button>
