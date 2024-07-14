@@ -1,4 +1,5 @@
 import "./App.css";
+import InputControlado from "./components/InputControlado";
 import Contador from "./components/contador";
 import Form from "./components/form";
 import Lista from "./components/lista";
@@ -13,6 +14,8 @@ export default function App() {
   <Lista></Lista>
   <hr className="separator" />
   <Form></Form>
+  <hr className="separator" />
+  <InputControlado></InputControlado>
   </>
 
 }
