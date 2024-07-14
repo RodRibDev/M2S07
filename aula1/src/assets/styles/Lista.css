@@ -1,0 +1,29 @@
+.form {
+    width: 280px;
+    padding: 10px;
+    border-color: rgb(191, 190, 190);
+    margin-bottom: 30px;
+}
+.lista {
+}
+.btn {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #0000ff;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  .alert {
+    color: rgb(207, 0, 0);
+  }
